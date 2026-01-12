@@ -2,7 +2,7 @@
 /**
  * Plugin Name:  Booking System Test
  * Description: Custom booking system with date, time, and deposit options
- * Version: 4.0.0
+ * Version: 5.0.0
  * Author: Rakib
  * Text Domain: crystal-booking
  */
