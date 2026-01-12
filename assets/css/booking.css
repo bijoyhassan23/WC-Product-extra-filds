@@ -70,10 +70,20 @@
     display: flex;
     gap: 10px;
 }
+.button{
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
 
-.booking-back-btn {
-    background: #eee;
 }
+
+/* .booking-back-btn {
+    background: #eee;
+} */
 
 .payment-option {
     display: flex;

@@ -14,14 +14,14 @@ class Crystal_Booking_Assets {
             'crystal-booking-css',
             CRYSTAL_BOOKING_URL . 'assets/css/booking.css',
             [],
-            '1.0.0'
+            CRYSTAL_BOOKING_VERSION
         );
 
         wp_enqueue_script(
             'crystal-booking-js',
             CRYSTAL_BOOKING_URL . 'assets/js/booking.js',
             ['jquery'],
-            '1.0.0',
+            CRYSTAL_BOOKING_VERSION,
             true
         );
 
