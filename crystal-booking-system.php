@@ -4,7 +4,8 @@
  * Description: Custom booking system with date, time, and deposit options
  * Version: 1.0.0
  * Author: Rakib
- * Text Domain: crystal-booking
+ * Text Domain: crystal-booking 
+ * Requires Plugins: woocommerce
  */
 
 if (!defined('ABSPATH')) exit;
