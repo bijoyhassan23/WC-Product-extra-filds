@@ -1,0 +1,88 @@
+.crystal-booking-wrapper {
+    margin-top: 20px;
+}
+
+.crystal-book-now {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.crystal-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 99999;
+}
+
+.crystal-modal-content {
+    background: #fff;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.crystal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.booking-form-group {
+    margin-bottom: 20px;
+}
+
+.booking-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.time-slots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 10px;
+}
+
+.time-slot {
+    padding: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.time-slot.selected {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.booking-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.booking-back-btn {
+    background: #eee;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+
+.payment-option input {
+    margin-right: 10px;
+}
