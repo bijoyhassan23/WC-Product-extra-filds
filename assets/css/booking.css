@@ -1,5 +1,9 @@
-.crystal-booking-wrapper {
-    margin-top: 20px;
+
+form:has([name="add-to-cart"]) {
+    .quantity,
+    [type="submit"]{
+        display: none !Important;
+    }
 }
 
 .crystal-book-now {

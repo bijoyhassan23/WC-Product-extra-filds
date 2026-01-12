@@ -1,21 +1,19 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-class Crystal_Booking_Assets {
+class Crystal_Booking_Assets
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         add_action('wp_enqueue_scripts', [$this, 'enqueue']);
     }
 
-    public function enqueue() {
+    public function enqueue()
+    {
         if (!is_product()) return;
 
-        wp_enqueue_style(
-            'crystal-booking-css',
-            CRYSTAL_BOOKING_URL . 'assets/css/booking.css',
-            [],
-            CRYSTAL_BOOKING_VERSION
-        );
+        wp_enqueue_style('crystal-booking-css', CRYSTAL_BOOKING_URL . 'assets/css/booking.css', [], CRYSTAL_BOOKING_VERSION);
 
         wp_enqueue_script(
             'crystal-booking-js',
