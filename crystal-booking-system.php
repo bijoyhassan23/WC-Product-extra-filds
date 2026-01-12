@@ -20,4 +20,4 @@ function crystal_booking_system_init() {
     return Crystal_Booking_System::get_instance();
 }
 
-add_action('plugins_loaded', 'crystal_booking_system_init');
+add_action('plugins_loaded', 'crystal_booking_system_init',10);

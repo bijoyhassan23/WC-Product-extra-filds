@@ -6,7 +6,7 @@ class Crystal_Booking_Assets
 
     public function __construct()
     {
-        add_action('wp_enqueue_scripts', [$this, 'enqueue']);
+        add_action('wp_enqueue_scripts', [$this, 'enqueue'], 99);
     }
 
     public function enqueue()
